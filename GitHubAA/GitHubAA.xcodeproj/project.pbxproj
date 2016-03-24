@@ -13,6 +13,7 @@
 		BCDD547F1CA3C2A4002DE3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDD547D1CA3C2A4002DE3E9 /* Main.storyboard */; };
 		BCDD54811CA3C2A4002DE3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDD54801CA3C2A4002DE3E9 /* Assets.xcassets */; };
 		BCDD54841CA3C2A4002DE3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDD54821CA3C2A4002DE3E9 /* LaunchScreen.storyboard */; };
+		BCDD548D1CA3C5B3002DE3E9 /* Easd.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDD548C1CA3C5B3002DE3E9 /* Easd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BCDD54801CA3C2A4002DE3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDD54831CA3C2A4002DE3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCDD54851CA3C2A4002DE3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDD548B1CA3C5B3002DE3E9 /* Easd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easd.h; sourceTree = "<group>"; };
+		BCDD548C1CA3C5B3002DE3E9 /* Easd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		BCDD54681CA3C2A4002DE3E9 = {
 			isa = PBXGroup;
 			children = (
+				BCDD548B1CA3C5B3002DE3E9 /* Easd.h */,
+				BCDD548C1CA3C5B3002DE3E9 /* Easd.m */,
 				BCDD54731CA3C2A4002DE3E9 /* GitHubAA */,
 				BCDD54721CA3C2A4002DE3E9 /* Products */,
 			);
@@ -151,6 +156,7 @@
 			files = (
 				BCDD547C1CA3C2A4002DE3E9 /* ViewController.m in Sources */,
 				BCDD54791CA3C2A4002DE3E9 /* AppDelegate.m in Sources */,
+				BCDD548D1CA3C5B3002DE3E9 /* Easd.m in Sources */,
 				BCDD54761CA3C2A4002DE3E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
